@@ -5,6 +5,7 @@ There are several ways, for example:
 1. `git revert`
 2. `git reset`
 3. `git rebase --interactive`
+4. Bug 1, oops!
 
 ## 1. `git revert`
 
@@ -45,7 +46,7 @@ git rebase master --interactive
 
 Your editor opens with this text file:
 
-```gitconfig
+```ini
 pick 8eaee66 Add git-revert section
 pick c939a9c Add git-reset section
 pick 0bca4bd Add git-rebase section
@@ -79,7 +80,7 @@ pick 0bca4bd Add git-rebase section
 
 If you want to drop commit `c939a9c`:
 
-```git
+```ini
 pick 8eaee66 Add git-revert section
 drop c939a9c Add git-reset section
 pick 0bca4bd Add git-rebase section
