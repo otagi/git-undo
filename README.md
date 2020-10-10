@@ -6,6 +6,7 @@ There are several ways, for example:
 2. `git reset`
 3. `git rebase --interactive`
 4. Bug 1, oops!
+5. Bug 2, damn!
 
 ## 1. `git revert`
 
