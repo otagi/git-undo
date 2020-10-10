@@ -16,3 +16,17 @@ https://git-scm.com/docs/git-revert
 # Revert HEAD (the last commit)
 git revert HEAD
 ```
+
+## 2. `git reset`
+
+https://git-scm.com/docs/git-reset
+
+> Reset current HEAD to the specified state.
+
+```shell
+# Reset history to 1 commit before HEAD, and keep the changes.
+git reset HEAD~1
+
+# Reset history to 1 commit before HEAD, and delete the changes.
+git reset --hard HEAD~1
+```
